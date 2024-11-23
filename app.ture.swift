@@ -36,3 +36,48 @@ Double quotes (") can appear without being escaped.
 I still have \(apples + oranges) pieces of fruit.
 """
 print(quotation);
+
+/**************************************************************************
+                                Array
+***************************************************************************/
+var frouts:[String] = [];
+
+print(frouts)
+
+// add elements 
+frouts.append("Apple")
+frouts.append("Mango")
+print(frouts)
+
+// replace element 
+frouts[1] = "Bannana"
+print(frouts)
+
+
+
+// anather array way key value : like js object
+var occupations = [
+    "Malcolm": "Captain",
+    "Kaylee": "Mechanic",
+ ]
+
+// add new item
+occupations["Jayne"] = "Public Relations"
+print(occupations)
+
+/**************************************************************************
+                            Control Flow
+***************************************************************************/
+
+let items  = [1,2,3,4,5,6,7,8,9];
+var count = 0;
+
+for items  in items {
+    if items > 5 {
+    count+=items
+
+    }else {
+
+    }
+}
+print(count);
