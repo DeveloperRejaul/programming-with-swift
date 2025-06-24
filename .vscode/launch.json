@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:programming-with-swift}/05.class",
+            "name": "Debug LearnClass (05.class)",
+            "program": "${workspaceFolder:programming-with-swift}/05.class/.build/debug/LearnClass",
+            "preLaunchTask": "swift: Build Debug LearnClass (05.class)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:programming-with-swift}/05.class",
+            "name": "Release LearnClass (05.class)",
+            "program": "${workspaceFolder:programming-with-swift}/05.class/.build/release/LearnClass",
+            "preLaunchTask": "swift: Build Release LearnClass (05.class)"
+        }
+    ]
+}
