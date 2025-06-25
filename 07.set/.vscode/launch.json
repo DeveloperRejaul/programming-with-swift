@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:07.set}",
+            "name": "Debug 07.set",
+            "program": "${workspaceFolder:07.set}/.build/debug/07.set",
+            "preLaunchTask": "swift: Build Debug 07.set"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:07.set}",
+            "name": "Release 07.set",
+            "program": "${workspaceFolder:07.set}/.build/release/07.set",
+            "preLaunchTask": "swift: Build Release 07.set"
+        }
+    ]
+}
