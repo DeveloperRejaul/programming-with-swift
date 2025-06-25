@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:06.array}",
+            "name": "Debug 06.array",
+            "program": "${workspaceFolder:06.array}/.build/debug/06.array",
+            "preLaunchTask": "swift: Build Debug 06.array"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:06.array}",
+            "name": "Release 06.array",
+            "program": "${workspaceFolder:06.array}/.build/release/06.array",
+            "preLaunchTask": "swift: Build Release 06.array"
+        }
+    ]
+}
